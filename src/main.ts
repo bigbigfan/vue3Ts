@@ -13,6 +13,7 @@ import { settings } from '@/config/config'
 if (import.meta.env.DEV && settings.vconsole) {
   const vConsole = new Vconsole()
 }
+
 createApp(App)
   .use(Vant)
   .use(Directives)
